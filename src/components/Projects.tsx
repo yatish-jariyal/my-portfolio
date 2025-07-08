@@ -1,7 +1,7 @@
 import { Folder, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ecommImage from "../assets/ecomm.png";
-import jobAppImage from "../assets/jobApp.png";
+import jobAppImage from "../assets/jobapp.png";
 import youtubeImage from "../assets/youtube-clone.png";
 
 const Projects = () => {
