@@ -17,9 +17,10 @@ const Hero = () => {
             Full Stack Developer
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Passionate about creating innovative web applications with modern
-            technologies. I build scalable solutions that deliver exceptional
-            user experiences.
+            I’m a web developer driven by curiosity and creativity. I specialize
+            in crafting modern, user-focused applications using the latest
+            technologies. Whether it's building scalable full-stack solutions or
+            creating smooth, intuitive interfaces.
           </p>
         </div>
 
@@ -43,19 +44,19 @@ const Hero = () => {
 
         <div className="flex justify-center space-x-6 pt-8">
           <a
-            href="https://github.com"
+            href="github.com/yatish-jariyal"
             className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
           >
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="linkedin.com/in/yatish-jariyal/"
             className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
           >
             <Linkedin size={24} />
           </a>
           <a
-            href="mailto:alex@example.com"
+            href="mailto:yatishjariyal@gmail.com"
             className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
           >
             <Mail size={24} />

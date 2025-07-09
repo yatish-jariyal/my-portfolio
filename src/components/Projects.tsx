@@ -27,7 +27,8 @@ const Projects = () => {
     },
     {
       title: "Youtube Clone",
-      description: "Youtube clone using ReactJS and Youtube API.",
+      description:
+        "Built a responsive video streaming app using ReactJS and the YouTube Data API, featuring video search, playback, and channel browsing with a clean, modern UI.",
       image: youtubeImage,
       technologies: ["React", "Node.js", "Youtube API"],
       github: "https://github.com/yatish-jariyal/youtube-clone",
