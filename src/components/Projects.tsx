@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import ecommImage from "../assets/ecomm.png";
 import jobAppImage from "../assets/jobapp.png";
 import youtubeImage from "../assets/youtube-clone.png";
+import travelPlannerImage from "../assets/travel-planner.png";
 
 const Projects = () => {
   const projects = [
@@ -11,7 +12,7 @@ const Projects = () => {
       description:
         "A full-featured e-commerce platform built with MERN stack featuring user authentication, payment integration, and admin dashboard.",
       image: ecommImage,
-      technologies: ["React", "Node.js", "MongoDB", "PayPal API"],
+      technologies: ["React", "Node.js", "Express.js", "MongoDB", "PayPal API"],
       github: "https://github.com/yatish-jariyal/Ecommerce-Website",
       demo: "https://digitalcube.onrender.com/",
     },
@@ -20,7 +21,14 @@ const Projects = () => {
       description:
         "An application to store all your interview information built using MongoDB, Express JS, React JS and Node JS",
       image: jobAppImage,
-      technologies: ["React", "Express.js", "MongoDB", "Heroku"],
+      technologies: [
+        "React",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Heroku",
+      ],
       github:
         "https://github.com/yatish-jariyal/JobApplicationTracker/tree/master",
       demo: "https://job-app-tracker-frontend-m5vdnipxo-yatish-jariyal.vercel.app/login",
@@ -30,9 +38,24 @@ const Projects = () => {
       description:
         "Built a responsive video streaming app using ReactJS and the YouTube Data API, featuring video search, playback, and channel browsing with a clean, modern UI.",
       image: youtubeImage,
-      technologies: ["React", "Node.js", "Youtube API"],
+      technologies: ["React", "Material UI", "Youtube API"],
       github: "https://github.com/yatish-jariyal/youtube-clone",
       demo: "https://youtube-clone-1-9zho.onrender.com/",
+    },
+    {
+      title: "Travel Planner",
+      description:
+        "A web-based Travel Planner application that helps users search for airports, create and manage itineraries, and generate travel suggestions using modern web technologies.",
+      image: travelPlannerImage,
+      technologies: [
+        "React",
+        "Typescript",
+        "Redux",
+        "Tailwind Css",
+        "Google Gemini API",
+      ],
+      github: "https://github.com/yatish-jariyal/travel-planner-app",
+      demo: "https://travel-planner-app-g66i.onrender.com",
     },
   ];
 
