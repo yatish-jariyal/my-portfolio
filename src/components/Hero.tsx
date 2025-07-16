@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import resume from "../assets/resume.pdf";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -31,14 +32,14 @@ const Hero = () => {
             className="bg-transparent border-blue-500 text-blue-600 hover:bg-blue-500 hover:text-white transition-all duration-300"
             onClick={() => scrollToSection("projects")}
           >
-            View My Work
+            Get In Touch
           </Button>
           <Button
             size="lg"
             className="bg-blue-600 hover:bg-blue-700 text-white transition-all duration-300"
-            onClick={() => scrollToSection("contact")}
+            onClick={() => window.open(resume, "_blank", "noopener noreferrer")}
           >
-            Get In Touch
+            Download Resume
           </Button>
         </div>
 
