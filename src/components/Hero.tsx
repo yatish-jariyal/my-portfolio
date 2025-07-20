@@ -45,13 +45,13 @@ const Hero = () => {
 
         <div className="flex justify-center space-x-6 pt-8">
           <a
-            href="github.com/yatish-jariyal"
+            href="https://github.com/yatish-jariyal"
             className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
           >
             <Github size={24} />
           </a>
           <a
-            href="linkedin.com/in/yatish-jariyal/"
+            href="https://linkedin.com/in/yatish-jariyal/"
             className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
           >
             <Linkedin size={24} />

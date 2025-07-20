@@ -33,14 +33,14 @@ const Contact = () => {
                   <span className="text-lg">yatishjariyal@gmail.com</span>
                 </a>
                 <a
-                  href="github.com/yatish-jariyal"
+                  href="https://github.com/yatish-jariyal"
                   className="flex items-center justify-center space-x-4 text-gray-700 hover:text-blue-600 transition-colors duration-300 bg-white p-4 rounded-lg shadow-md border border-gray-200 hover:border-blue-300"
                 >
                   <Github size={24} />
                   <span className="text-lg">github.com/yatish-jariyal</span>
                 </a>
                 <a
-                  href="linkedin.com/in/yatish-jariyal/"
+                  href="https://linkedin.com/in/yatish-jariyal/"
                   className="flex items-center justify-center space-x-4 text-gray-700 hover:text-blue-600 transition-colors duration-300 bg-white p-4 rounded-lg shadow-md border border-gray-200 hover:border-blue-300"
                 >
                   <Linkedin size={24} />
